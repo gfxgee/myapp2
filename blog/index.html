@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Welcome to Blog.Yourdomain.com</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link rel="shortcut icon" href="http://cinnamon.linuxmint.com/favicon.ico" />
+    <link href="bootstrap/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="bootstrap/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://getbootstrap.com/2.3.2/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://getbootstrap.com/2.3.2/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://getbootstrap.com/2.3.2/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="http://getbootstrap.com/2.3.2/assets/ico/apple-touch-icon-57-precomposed.png">
+                                  <!-- <link rel="shortcut icon" href="http://getbootstrap.com/2.3.2/assets/ico/favicon.png"> -->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="../home/index.html" class="btn"><img src="mint1.png" title="Linux Mint Cinamon" width="120px"></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="../home/index.html"><h4>Home</h4></a></li>
+              <li class="active"><a href="../blog/index.html"><h4>Blog</h4></a></li>
+              <li><a href="../howto/index.html"><h4>How To</h4></a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    <div class="container">
+<table class="table table-striped table-hover">
+            <tr class="success">
+              <td><a href="#myModal" role="button" data-toggle="modal" title="click to view fullsize"><img src="gee.jpg" class="img-polaroid" width="200px"></a></td>
+              <td class="span10">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#about" data-toggle="tab">About</a></li>
+                <li><a href="#messages" data-toggle="tab">Description</a></li>
+            </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="about">
+              <table class="table">
+                <tr>
+                  <td><h5>Name:</h5></td>
+                  <td><h6>Gee Ronald Actub</h6></td>
+                </tr>
+                <tr>
+                  <td><h5>Birthday:</h5></td>
+                  <td><h6>March 29, 1995</h6></td>
+                </tr>
+                <tr>
+                  <td><h5>Gender:</h5></td>
+                  <td><h6>Male</h6></td>
+                </tr>
+                <tr>
+                  <td><h5>Mobile Phones:</h5></td>
+                  <td><h6>+639066499000</h6></td>
+                </tr>
+              </table>
+            </div>
+            <div class="tab-pane" id="messages"><p>***kamo na bahala sa mga yawyaw ninyo(i.e: about your self)</p></div>
+         </div>
+       </td>
+            </tr>
+            <tr class="error">
+              <td><a href="#myModal2" role="button" data-toggle="modal" title="click to view fullsize"><img src="jorna2.jpg" class="img-polaroid" width="200px"></a></td>
+              <td class="span10">
+              <ul class="nav nav-tabs">
+                <li class="active"><a href="#about2" data-toggle="tab">About</a></li>
+                <li><a href="#description" data-toggle="tab">Description</a></li>
+            </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="about2">
+              <table class="table">
+                <tr>
+                  <td><h5>Name:</h5></td>
+                  <td><h6>Jorna Galamiton</h6></td>
+                </tr>
+                <tr>
+                  <td><h5>Birthday:</h5></td>
+                  <td><h6>January 12, 1994</h6></td>
+                </tr>
+                <tr>
+                  <td><h5>Gender:</h5></td>
+                  <td><h6>Female</h6></td>
+                </tr>
+                <tr>
+                  <td><h5>Mobile Phones:</h5></td>
+                  <td><h6>+639262957541</h6></td>
+                </tr>
+              </table>
+            </div>
+            <div class="tab-pane" id="description"><p>***kamo na bahala sa mga yawyaw ninyo(i.e: about your self)</p></div>
+             </div>
+            </td>
+            </tr>
+
+        </table>
+
+        <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="myModalLabel">Gee Ronald Actub</h3>
+            </div>
+            <div class="modal-body">
+            <img src="gee.jpg">
+            </div>
+            <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            </div>
+        </div>
+
+        <div id="myModal2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="myModalLabel">Jorna Galamiton</h3>
+            </div>
+            <div class="modal-body">
+            <img src="jorna.jpg">
+            </div>
+            <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            </div>
+        </div>
+
+      <p class="text-left">&copy; Copyright <abbr title="zzzz" class="initialism">2013</abbr></p>
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bootstrap/jquery.js"></script>
+    <script src="bootstrap/bootstrap-transition.js"></script>
+    <script src="bootstrap/bootstrap-alert.js"></script>
+    <script src="bootstrap/bootstrap-modal.js"></script>
+    <script src="bootstrap/bootstrap-dropdown.js"></script>
+    <script src="bootstrap/bootstrap-scrollspy.js"></script>
+    <script src="bootstrap/bootstrap-tab.js"></script>
+    <script src="bootstrap/bootstrap-tooltip.js"></script>
+    <script src="bootstrap/bootstrap-popover.js"></script>
+    <script src="bootstrap/bootstrap-button.js"></script>
+    <script src="bootstrap/bootstrap-collapse.js"></script>
+    <script src="bootstrap/bootstrap-carousel.js"></script>
+    <script src="bootstrap/bootstrap-typeahead.js"></script>
+
+  
+
+</body></html>
